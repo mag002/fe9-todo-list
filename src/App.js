@@ -1,9 +1,11 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-
+import TodoListApp from "./components/TodoListApp";
 function App() {
-  return <div className="App">TODOLIST</div>;
+  return (
+    <div className="App">
+      <TodoListApp />
+    </div>
+  );
 }
 
 export default App;
